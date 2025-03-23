@@ -1,0 +1,115 @@
+.main-body {
+    background-image: url("resource/background-body.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url("resource/logo.png");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "dash";
+    src: url("font/Dashdemo-ozJA.ttf");
+}
+
+* {
+    font-family: "Quicksand";
+    font-size: 14px;
+    color: darkblue;
+
+}
+
+.title1 {
+    font-family: "dash";
+    color: darkmagenta;
+    font-size: 36px;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+}
+
+.background {
+    background-image: url("resource/background.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background1 {
+    background-image: url("resource/teacher portal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background2 {
+    background-image: url("resource/academic officer portal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background3 {
+    background-image: url("resource/admin portal.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.poster-img1 {
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption {
+    margin-bottom: 150px;
+}
+
+.poster-title {
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+
+}
+
+.poster-text {
+    font-size: 20px;
+    color: grey;
+}
+
+.poster-caption1 {
+    margin-bottom: 70px;
+    margin-right: 280px;
+}
+.signout:hover{
+    cursor: pointer;
+}
+
+.welcome{
+    cursor: pointer;
+}
+
+
+
+
+
